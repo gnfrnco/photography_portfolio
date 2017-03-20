@@ -91,4 +91,7 @@ body{
    .image{
       flex: 1 1 300px;
    }
+   #highlight-container{
+      padding: 0;
+   }
  }
