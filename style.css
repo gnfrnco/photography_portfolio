@@ -1,0 +1,94 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+#header-container{
+   font-family: "Interstate";
+   display: flex;
+   flex-wrap: wrap;
+   height: 100vh;
+}
+
+.section{
+   flex: 1;
+   flex-basis: 400px;
+}
+
+.image-box{
+   background: url(images/image.jpg);
+   background-size: cover;
+   background-position-y: -100px;
+   margin: 25px;
+}
+
+.intro-box{
+   text-align: center;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#highlight-container{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100vw;
+   padding: 50px;
+
+}
+
+#quotainer{
+   font-family: 'Merriweather', serif;
+   background: #030303;
+   color: #ddd;
+   width: 70%;
+   line-height: 1.5;
+   margin: 125px 0 125px 0;
+   padding: 10px;
+   font-size: 40px;
+}
+
+.image{
+   display: flex;
+   justify-content: center;
+   flex: 1 1 30%;
+   margin: 20px;
+}
+
+.image img{
+   width: 100%;
+   height: 100%;
+}
+
+#contact-container{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
+.button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 125px;
+   height: 50px;
+   background: #030303;
+   color: #eee;
+   text-decoration: none;
+   font-family: "Interstate";
+   margin-right: 5px;
+}
+
+.button:hover{
+   background: #222;
+}
+
+ @media only screen and (max-width : 768px){
+   #quotainer{
+      width: 100%;
+   }
+   .image{
+      flex: 1 1 300px;
+   }
+ }
